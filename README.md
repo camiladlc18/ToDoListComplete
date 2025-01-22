@@ -1,14 +1,10 @@
 # **ToDoListCompleto**
 
-![GitHub top language](https://img.shields.io/github/languages/top/camiladlc18/ToDoListCompleto)
-![GitHub repo size](https://img.shields.io/github/repo-size/camiladlc18/ToDoListCompleto)
-![GitHub last commit](https://img.shields.io/github/last-commit/camiladlc18/ToDoListCompleto)
-![GitHub contributors](https://img.shields.io/github/contributors/camiladlc18/ToDoListCompleto)
 
 **ToDoListCompleto** es un proyecto que reúne el desarrollo completo de una aplicación de lista de tareas, compuesto por:
 
-1. **Backend**: Implementado en Spring Boot. (Submódulo: `ToDoListBack`)
-2. **Frontend**: Implementado en Angular. (Submódulo: `ToDoListFront`)
+1. **Backend**: Implementado en Spring Boot. (Submódulo: `Backend`)
+2. **Frontend**: Implementado en Angular. (Submódulo: `Frontend`)
 
 ---
 
@@ -29,3 +25,10 @@ Este repositorio utiliza **submódulos de Git**, por lo que es necesario clonar 
 
 ```bash
 git clone --recurse-submodules https://github.com/camiladlc18/ToDoListCompleto.git
+
+## **Inicializar submódulos después de clonar**
+
+Si ya clonaste el repositorio sin submódulos, inicialízalos con:
+
+```bash
+git submodule update --init --recursive
